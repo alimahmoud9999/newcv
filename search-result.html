@@ -1,0 +1,726 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+
+<head>
+  <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=0.80, shrink-to-fit=no">
+  <title>CV World</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+  <!-- Start Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+      <a class="navbar-brand" href="./index.html">
+        <img src="./img/Icons/logo_ar.png" alt="">
+      </a>
+      <ul class="navbar-nav d-lg-none d-xl-none d-xs-none mr-auto ml-5">
+        <li class="nav-item ">
+          <div class="btn-group user-drop">
+            <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              اسم المستخدم
+            </button>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" href="./jsprofile.html">البيانات الشخصية</a>
+              <a class="dropdown-item" href="./jsnotification.html">الاشعارات</a>
+              <a class="dropdown-item" href="./jsmasseage.html">الرسائل</a>
+              <a class="dropdown-item" href="bo-setting.html">الاعدادات</a>
+              <a class="dropdown-item" href="#">تسجيل الخروج</a>
+            </div>
+          </div>
+        </li>
+      </ul>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavDropdown">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">الرئيسية<span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="search-result.html">السيرالذاتية</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">مكاتب العمل</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">المدونة</a>
+          </li>
+
+        </ul>
+
+        <ul class="navbar-nav">
+          <li class="nav-item ">
+            <div class="btn-group user-drop">
+              <button type="button" class="btn  dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                اسم المستخدم
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="./jsprofile.html">البيانات الشخصية</a>
+                <a class="dropdown-item" href="./jsnotification.html">الاشعارات</a>
+                <a class="dropdown-item" href="./jsmasseage.html">الرسائل</a>
+                <a class="dropdown-item" href="bo-setting.html">الاعدادات</a>
+                <a class="dropdown-item" href="#">تسجيل الخروج</a>
+              </div>
+            </div>
+          </li>
+
+          <li class="nav-item myitem2">
+            <!-- <a href="./signup.html" class="btn" name="button">حساب جديد</a> -->
+            <!-- after login -->
+            <a class="btn" name="button" href="#">لوحة التحكم</a>
+          </li>
+          <li class="nav-item dropdown my-dropdown">
+
+            <a class="nav-link lang-dropdown" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+              English
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+              <a class="dropdown-item" href="">العربية</a>
+
+            </div>
+          </li>
+        </ul>
+
+      </div>
+
+    </div>
+  </nav>
+  <!-- end Navbar -->
+
+  <!-- Start Section Search Result -->
+  <section class="search">
+    <div class="container">
+      <div class="row">
+        <!-- Start Section Filtter -->
+        <div class="col-lg-3 col-md-4">
+          <form>
+            <div class="serch-box">
+              <h3>تصفية النتائج</h3>
+              <span>(32145)</span>
+              <input class="btn-block" type="text" name="" value="" placeholder="ابحث">
+            </div>
+
+            <!--  -->
+            <div class="box-filtter">
+              <h3>الموقع الجغرافي</h3>
+              <div class="box-p" id="open-1-">
+                <span> دولة الإقامة </span>
+                <img class="toggle-img" src="img/Icons/minus_gray.png" alt="">
+                <img src="img/Icons/add_gray.png" alt="">
+              </div>
+              <div class="box-ch" id="open-1-content">
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">السعودية</span>
+                  <span class="count">(32145)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">المغرب</span>
+                  <span class="count">(32145)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">مصر</span>
+                  <span class="count">(32145)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">الامارات</span>
+                  <span class="count">(32145)</span>
+                </label>
+              </div>
+            </div>
+            <!--  -->
+            <div class="box-filtter">
+              <div class="box-p" id="open-2-">
+                <span> دولة الإقامة </span>
+                <img src="img/Icons/minus_gray.png" alt="">
+                <img class="toggle-img" src="img/Icons/add_gray.png" alt="">
+              </div>
+              <div class="box-ch" id="open-2-content">
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">القاهرة</span>
+                  <span class="count">(500)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">الأسكندرية</span>
+                  <span class="count">(300)</span>
+                </label>
+              </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="box-filtter">
+              <div class="box-p" id="open-3-">
+                <span>دول يرغب العمل بهاة </span>
+                <img src="img/Icons/minus_gray.png" alt="">
+                <img class="toggle-img" src="img/Icons/add_gray.png" alt="">
+              </div>
+              <div class="box-ch" id="open-3-content">
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">مصر</span>
+                  <span class="count">(5650)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">السعودية</span>
+                  <span class="count">(9878)</span>
+                </label>
+              </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="box-filtter">
+              <h3>الدور الوظيفى</h3>
+              <div class="box-p" id="open-4-">
+                <span>المجالات </span>
+                <img src="img/Icons/minus_gray.png" alt="">
+                <img class="toggle-img" src="img/Icons/add_gray.png" alt="">
+              </div>
+              <div class="box-ch" id="open-4-content">
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">مصمم جرافيك</span>
+                  <span class="count">(20)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">مطور البرامج</span>
+                  <span class="count">(98)</span>
+                </label>
+              </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="box-filtter">
+              <div class="box-p" id="open-5-">
+                <span>التخصصات </span>
+                <img src="img/Icons/minus_gray.png" alt="">
+                <img class="toggle-img" src="img/Icons/add_gray.png" alt="">
+              </div>
+              <div class="box-ch" id="open-5-content">
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">هندسة الحاسوب </span>
+                  <span class="count">(98)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">علوم الحاسب الآلى </span>
+                  <span class="count">(32)</span>
+                </label>
+              </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="box-filtter">
+              <h3>الخبرة</h3>
+              <div class="box-p" id="open-6-">
+                <span>سنوات الخبرة </span>
+                <img src="img/Icons/minus_gray.png" alt="">
+                <img class="toggle-img" src="img/Icons/add_gray.png" alt="">
+              </div>
+              <div class="box-ch" id="open-6-content">
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">5 </span>
+                  <span class="count">(98)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">2 </span>
+                  <span class="count">(32)</span>
+                </label>
+              </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="box-filtter">
+              <div class="box-p" id="open-7-">
+                <span>مستوى الخبرة</span>
+                <img src="img/Icons/minus_gray.png" alt="">
+                <img class="toggle-img" src="img/Icons/add_gray.png" alt="">
+              </div>
+              <div class="box-ch" id="open-7-content">
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">مبتدأ </span>
+                  <span class="count">(98)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">خبير </span>
+                  <span class="count">(32)</span>
+                </label>
+              </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="box-filtter">
+              <div class="box-p" id="open-8-">
+                <span>السيرة الذاتية</span>
+                <img src="img/Icons/minus_gray.png" alt="">
+                <img class="toggle-img" src="img/Icons/add_gray.png" alt="">
+              </div>
+              <div class="box-ch" id="open-8-content">
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">الكل </span>
+                  <span class="count">(98)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">لدية </span>
+                  <span class="count">(32)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">ليس لدية </span>
+                  <span class="count">(32)</span>
+                </label>
+              </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="box-filtter">
+              <h3>البيانات الشخصية</h3>
+              <div class="box-p" id="open-9-">
+                <span>السن</span>
+                <img src="img/Icons/minus_gray.png" alt="">
+                <img class="toggle-img" src="img/Icons/add_gray.png" alt="">
+              </div>
+              <div class="box-ch" id="open-9-content">
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name"> 18 -21 </span>
+                  <span class="count">(98)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">22-35 </span>
+                  <span class="count">(32)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">36-40 </span>
+                  <span class="count">(32)</span>
+                </label>
+              </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="box-filtter">
+              <div class="box-p" id="open-10-">
+                <span>النوع</span>
+                <img src="img/Icons/minus_gray.png" alt="">
+                <img class="toggle-img" src="img/Icons/add_gray.png" alt="">
+              </div>
+              <div class="box-ch" id="open-10-content">
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">ذكر </span>
+                  <span class="count">(98)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">انثى</span>
+                  <span class="count">(32)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">الكل</span>
+                  <span class="count">(32)</span>
+                </label>
+              </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="box-filtter">
+              <div class="box-p" id="open-11-">
+                <span>الحالة الإجتماعية</span>
+                <img src="img/Icons/minus_gray.png" alt="">
+                <img class="toggle-img" src="img/Icons/add_gray.png" alt="">
+              </div>
+              <div class="box-ch" id="open-11-content">
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">اعزب </span>
+                  <span class="count">(98)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">متزوج</span>
+                  <span class="count">(32)</span>
+                </label>
+              </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="box-filtter">
+              <div class="box-p" id="open-12-">
+                <span>الحالة العسكرية</span>
+                <img src="img/Icons/minus_gray.png" alt="">
+                <img class="toggle-img" src="img/Icons/add_gray.png" alt="">
+              </div>
+              <div class="box-ch" id="open-12-content">
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">إعفاء نهائى </span>
+                  <span class="count">(98)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">تأجيل</span>
+                  <span class="count">(32)</span>
+                </label>
+
+              </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="box-filtter">
+              <h3>التعليم</h3>
+              <div class="box-p" id="open-13-">
+                <span>المؤهل العلمي</span>
+                <img src="img/Icons/minus_gray.png" alt="">
+                <img class="toggle-img" src="img/Icons/add_gray.png" alt="">
+              </div>
+              <div class="box-ch" id="open-13-content">
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">بكالوريس</span>
+                  <span class="count">(98)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">دبلوم</span>
+                  <span class="count">(32)</span>
+                </label>
+
+              </div>
+            </div>
+            <!--  -->
+            <!--  -->
+            <div class="box-filtter">
+              <div class="box-p" id="open-14-">
+                <span>اللغات</span>
+                <img src="img/Icons/minus_gray.png" alt="">
+                <img class="toggle-img" src="img/Icons/add_gray.png" alt="">
+              </div>
+              <div class="box-ch" id="open-14-content">
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">العربية</span>
+                  <span class="count">(98)</span>
+                </label>
+                <label>
+                  <input type="checkbox" name="" value="">
+                  <span class="input-name">الإنجليزية</span>
+                  <span class="count">(32)</span>
+                </label>
+
+              </div>
+            </div>
+            <!--  -->
+          </form>
+        </div>
+        <!-- End section Filtter -->
+
+        <!-- Start Section Result -->
+        <div class="col-lg-9 col-md-8">
+          <div class="Resutl">
+            <div class="box-result">
+              <div class="head-box">
+                <div class="row">
+                  <div class="col-lg-8 col-md-6">
+                    <h3>مصمم جرافيك</h3>
+                    <p> 3+ سنوات من الخبرة مستوي الخبرة</p>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="dropdown drob-result">
+                      <button type="button" class="btn btn-block dropdown-toggle" data-toggle="dropdown">
+                        <img src="img/Icons/add_red.png" alt="">
+                        أضف إلى
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li class="dropdown-item" href="#">
+                          <label>
+                            <input type="radio" name="" value="">
+                            <span>مصمم جرافيك</span>
+                          </label>
+                        </li>
+                        <li class="dropdown-item" href="#">
+                          <label>
+                            <input type="radio" name="" value="">
+                            <span>محاسب</span>
+                          </label>
+                        </li>
+                        <li class="dropdown-item" href="#">
+                          <label>
+                            <input type="radio" name="" value="">
+                            <span>مطور برمجيات</span>
+                          </label>
+                        </li>
+                        <hr>
+                        <li class="li-form">
+                          <form action="bo-add-jobs.html">
+                            <button class="btn-add-job mb-1">
+                              <img src="img/Icons/add_red.png" alt="">
+                              أضف وظيفة
+                            </button>
+                          </form>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a href="bo-dashboard.html" class="box-content">
+              <div class="row">
+                  <div class="col-md-4">
+                    <div class="box-info">
+                      <h3>الجنسية</h3>
+                      <p>السعودية</p>
+                      <h3>المؤهل الدراسي</h3>
+                      <p>بكالوريوس فنون تطبيقية</p>
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="box-info">
+                      <h3>التخصص المهنى</h3>
+                      <span>التسويق / العلاقات العامة / الإعلان</span>
+                      <span>الرياضة والترفية</span>
+                      <span>+3</span>
+                    </div>
+                    <div class="box-info">
+                      <h3>التخصص المهنى</h3>
+                      <span>التسويق / العلاقات العامة / الإعلان</span>
+                      <span>الرياضة والترفية</span>
+                      <span>+3</span>
+                    </div>
+                  </div>
+              </div>
+            </a>
+          </div>
+          <div class="Resutl" data-toggle="modal" data-target="#exampleModal">
+            <div class="box-result">
+              <div class="head-box">
+                <div class="row">
+                  <div class="col-lg-8 col-md-6">
+                    <h3>مصمم جرافيك</h3>
+                    <p> 3+ سنوات من الخبرة مستوي الخبرة</p>
+                  </div>
+                  <div class="col-lg-4 col-md-6">
+                    <div class="dropdown drob-result">
+                      <button type="button" class="btn btn-block dropdown-toggle" data-toggle="dropdown">
+                        <img src="img/Icons/add_red.png" alt="">
+                        أضف إلى
+                      </button>
+                      <ul class="dropdown-menu">
+                        <li class="dropdown-item" href="#">
+                          <label>
+                            <input type="radio" name="" value="">
+                            <span>مصمم جرافيك</span>
+                          </label>
+                        </li>
+                        <li class="dropdown-item" href="#">
+                          <label>
+                            <input type="radio" name="" value="">
+                            <span>محاسب</span>
+                          </label>
+                        </li>
+                        <li class="dropdown-item" href="#">
+                          <label>
+                            <input type="radio" name="" value="">
+                            <span>مطور برمجيات</span>
+                          </label>
+                        </li>
+                        <hr>
+                        <li class="li-form">
+                          <form action="bo-add-jobs.html">
+                            <button class="btn-add-job mb-1">
+                              <img src="img/Icons/add_red.png" alt="">
+                              أضف وظيفة
+                            </button>
+                          </form>
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <a  class="box-content">
+              <div class="row">
+                  <div class="col-md-4">
+                    <div class="box-info">
+                      <h3>الجنسية</h3>
+                      <p>السعودية</p>
+                      <h3>المؤهل الدراسي</h3>
+                      <p>بكالوريوس فنون تطبيقية</p>
+                    </div>
+                  </div>
+                  <div class="col-md-8">
+                    <div class="box-info">
+                      <h3>التخصص المهنى</h3>
+                      <span>التسويق / العلاقات العامة / الإعلان</span>
+                      <span>الرياضة والترفية</span>
+                      <span>+3</span>
+                    </div>
+                    <div class="box-info">
+                      <h3>التخصص المهنى</h3>
+                      <span>التسويق / العلاقات العامة / الإعلان</span>
+                      <span>الرياضة والترفية</span>
+                      <span>+3</span>
+                    </div>
+                  </div>
+              </div>
+            </a>
+          </div>
+
+        </div>
+        <!-- End Section Result  -->
+      </div>
+    </div>
+    <!-- Modal LOgin  -->
+    <div class="modal fade modal-login" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+
+      <!--
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button> -->
+
+          <div class="modal-body">
+            <span>
+              <img src="img/Icons/resigter.png" alt="">
+            </span>
+            <h1>نسيت كلمة المرور</h1>
+            <p>تفقد بريدك و قم باتباع الاعدادات لتعيين كلمة مرور جديدة</p>
+          </div>
+          <div class="modal-footer mx-auto mb-5">
+            <a href="signup.html" class="btn btn-signup">حساب جديد</a>
+            <a href="signin.html" class="btn btn-login">لدي حساب بالفعل</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  <!--  -->
+  </section>
+  <!-- End Section Search Result -->
+
+  <!-- start footer -->
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="foot-content1">
+            <img src="./img/Icons/logo_ar_white.png" alt="">
+            <p>خدمات جديدة ومبتكرة في عالم التوظيف نسعى لتحقيق تجربة وظيفية أفضل</p>
+       </div>
+        </div>
+        <div class="col-md-4">
+
+          <div class="foot-header">
+            <h2>خريطة الموقع</h2>
+          </div>
+
+          <div class="row">
+            <div class="col-md-6 col-6">
+              <ul class="list-unstyled list">
+                <li>
+                  <a href="">الرئيسية</a>
+                </li>
+                <li>
+                  <a href="">تصفح السير</a>
+                </li>
+                <li>
+                  <a href="">مكاتب العمل</a>
+                </li>
+                <li>
+                  <a href="">المدونة</a>
+                </li>
+              </ul>
+            </div>
+            <div class="col-md-6 col-6">
+              <ul class="list-unstyled list">
+                <li>
+                  <a href="">الابلاغ عن مشكلة</a>
+                </li>
+                <li>
+                  <a href="">الحماية و الخصوصية</a>
+                </li>
+                <li>
+                  <a href="">الشروط و الاحكام</a>
+                </li>
+
+              </ul>
+
+            </div>
+          </div>
+
+
+        </div>
+        <div class="col-md-4">
+
+          <div class="foot-header">
+            <h2>التواصل الاجتماعي</h2>
+          </div>
+
+          <div class="row">
+            <div class="img-footer mt-3">
+              <a target="_blank" href="https://www.facebook.com/cv.world1/">
+                <img src="./img/Icons/facebook.png" alt="">
+              </a>
+
+              <a target="_blank" href="#">
+                <img src="./img/Icons/linkedin.png" alt="">
+              </a>
+              <a target="_blank" href="https://twitter.com/Cv_World1">
+                <img src="./img/Icons/twitter.png" alt="">
+              </a>
+              <a target="_blank" href="https://www.instagram.com/cv.world1/?hl=en">
+                <img src="./img/Icons/instgram.png" alt="">
+              </a>
+            </div>
+          </div>
+          <div class="row">
+            <div class="img-footer">
+              <a target="_blank" href="https://www.youtube.com/channel/UCXSVwvgNE6i9MaMI3uJIM8w">
+                <img src="./img/Icons/youtube.png" alt="">
+              </a>
+              <img src="./img/Icons/behance.png" alt="">
+              <img src="./img/Icons/pinterest.png" alt="">
+
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="copyright">
+      <p>جميع الحقوق محفوظة CV World </p>
+    </div>
+  </footer>
+  <!-- end footer -->
+
+  <script src="js/jquery.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/main.js"></script>
+  <script>
+  </script>
+</body>
+
+</html>
